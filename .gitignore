@@ -1,0 +1,21 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+
+# Mainframer configs
+.mainframer/
+
+# fastline
+/fastlane/report.xml
+
+# keystore
+/cert/release.keystore
+/cert/release.properties
+
+/release_notes.txt
+/fastlane/Appfile
