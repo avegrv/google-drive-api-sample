@@ -46,7 +46,6 @@ public abstract class GoogleDriveActivity extends GoogleSignInActivity {
 
     private void initializeDriveClient(GoogleSignInAccount signInAccount) {
         List<String> scopes = new ArrayList<>();
-        scopes.add(DriveScopes.DRIVE_FILE);
         scopes.add(DriveScopes.DRIVE_APPDATA);
 
         GoogleAccountCredential credential = GoogleAccountCredential.usingOAuth2(this, scopes);
