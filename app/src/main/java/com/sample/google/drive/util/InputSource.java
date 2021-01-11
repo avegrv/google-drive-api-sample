@@ -1,4 +1,4 @@
-package com.j002e3.sample.google.drive.util;
+package com.sample.google.drive.util;
 
 import java.io.FileNotFoundException;
 import java.io.InputStream;

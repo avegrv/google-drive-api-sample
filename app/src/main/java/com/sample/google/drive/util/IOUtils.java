@@ -1,10 +1,10 @@
-package com.j002e3.sample.google.drive.util;
-
-import android.support.annotation.Nullable;
+package com.sample.google.drive.util;
 
 import java.io.Closeable;
 import java.io.IOException;
 import java.io.InputStream;
+
+import androidx.annotation.Nullable;
 
 public final class IOUtils {
 

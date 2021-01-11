@@ -1,12 +1,12 @@
-package com.j002e3.sample.google.drive.data;
+package com.sample.google.drive.data;
 
-import com.j002e3.sample.google.drive.app.App;
+import com.sample.google.drive.app.App;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import static com.j002e3.sample.google.drive.data.DBConstants.*;
+import static com.sample.google.drive.data.DBConstants.*;
 
 class DatabaseOpenHelper extends SQLiteOpenHelper {
 

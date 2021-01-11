@@ -1,14 +1,15 @@
-package com.j002e3.sample.google.drive.data;
+package com.sample.google.drive.data;
 
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 public class InfoRepository {
 
-    private SQLiteDatabase db = DatabaseOpenHelper.getAppDatabase();
+    private final SQLiteDatabase db = DatabaseOpenHelper.getAppDatabase();
 
     public void writeInfo(@NonNull String info) {
         ContentValues values = new ContentValues();

@@ -1,10 +1,10 @@
-package com.j002e3.sample.google.drive.util;
-
-import android.support.annotation.NonNull;
+package com.sample.google.drive.util;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+
+import androidx.annotation.NonNull;
 
 public final class ByteSegments {
 
@@ -59,7 +59,7 @@ public final class ByteSegments {
         return new OutputStream() {
             @Override
             public void write(int b) throws IOException {
-                write(new byte[] {(byte) b});
+                write(new byte[]{(byte) b});
             }
 
             @Override

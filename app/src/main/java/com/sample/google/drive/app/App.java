@@ -1,4 +1,4 @@
-package com.j002e3.sample.google.drive.app;
+package com.sample.google.drive.app;
 
 import android.app.Application;
 

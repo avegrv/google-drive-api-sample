@@ -1,8 +1,8 @@
-package com.j002e3.sample.google.drive.data;
+package com.sample.google.drive.data;
 
 public class DBConstants {
 
-    public static final String DB_LOCATION = "/data/data/com.j002e3.sample.google.drive/databases/" + DBConstants.DB_NAME;
+    public static final String DB_LOCATION = "/data/data/com.sample.google.drive/databases/" + DBConstants.DB_NAME;
 
     static final String DB_NAME = "GoogleDriveSampleBd";
     static final int DB_VERSION = 1;

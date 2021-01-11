@@ -1,9 +1,10 @@
-package com.j002e3.sample.google.drive.app;
+package com.sample.google.drive.app;
 
-import android.support.annotation.NonNull;
-import android.support.annotation.StringRes;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.StringRes;
+import androidx.appcompat.app.AppCompatActivity;
 
 public abstract class AppActivity extends AppCompatActivity {
 
