@@ -1,11 +1,11 @@
 # google-drive-api-sample
 
-This is sample based on Google Drive API. Simple use case - using Google Drive to backup and restore SQLite Database.
+This is sample based on Google Drive API. Simple use case — using Google Drive to backup and restore SQLite Database.
 
 
 ### Overview
 
-This example uses Java, SQLite DB, Google Play Services (Drive and Auth), Constraint Layout. The app connects to Google Drive to backup and restores SQLite Database. This case uses a private directory of Google Drive and the owner of Google Drive cannot get access to this folder only the app can do this. This example can help you if you want to save application info and you don't have backend or other storage. Google Drive is free storage and this solution can save your money.
+This example uses Java, SQLite DB, Google Sign In, Google Drive API, Constraint Layout. The app connects to Google Drive to backup and restore SQLite Database. This case uses a private directory (application directory) of Google Drive and the owner of Google Drive cannot get access to this folder only the app can do this. This example can help you if you want to save application info and you don't have backend or other storage. Google Drive is free storage and this solution can save your money.
 
 
 ### Requirements
